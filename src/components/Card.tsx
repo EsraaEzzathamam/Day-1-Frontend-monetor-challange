@@ -4,16 +4,20 @@ import Image from "next/image";
 import MediaLink from "./MediaLink";
 
 const links = [
-  { linkTitle: "Github", url: "https://github.com/esraaezzat" },
-  { linkTitle: "LinkedIn", url: "https://www.linkedin.com/in/esraaezzat/" },
-  { linkTitle: "Instagram", url: "https://www.instagram.com/esraaezzat/" },
-  { linkTitle: "Email", url: "mailto:esraaezzat@gmail.com" },
-  { linkTitle: "Phone", url: "tel:+201234567890" },
-  // add more social media links as needed...
+  { linkTitle: "Github", url: "https://github.com/esraaezzathamam" },
+  {
+    linkTitle: "LinkedIn",
+    url: "https://www.linkedin.com/in/esraa-ezzat-hamam",
+  },
+  {
+    linkTitle: "Instagram",
+    url: "https://www.instagram.com/esraa.ezzat.hamam/",
+  },
+  { linkTitle: "Email", url: "mailto:esraaezzathamam@gmail.com" },
+  { linkTitle: "Phone", url: "tel:+201" },
 ];
 const Card = () => {
   return (
-    // <Box className="cardBackground" sx={{ padding: "4rem" }}>
     <Box className="cardBackground p-8 w-[450px] h-[650px] rounded-2xl">
       <div className="flex justify-center items-center w-24 h-24 overflow-hidden mb-6">
         <Image
