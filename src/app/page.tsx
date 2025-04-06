@@ -3,15 +3,7 @@ import Card from "day-1/components/Card";
 
 export default function Home() {
   return (
-    <Box
-      className="container"
-      sx={{
-        backgroundColor: "#141414",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
+    <Box className="flex items-center justify-center min-h-screen ">
       <Card />
     </Box>
   );

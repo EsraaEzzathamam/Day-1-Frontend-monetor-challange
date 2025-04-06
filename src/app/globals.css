@@ -9,11 +9,18 @@ html {
 }
 .cardBackground {
   background-color: #1f1f1f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
 }
 .neon {
   color: #c4f82a;
 }
-.container {
-  height: 100vh;
-  width: 100vw;
-}
+
+/* .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
