@@ -1,4 +1,3 @@
-import { Box } from "@mui/material";
 import Link from "next/link";
 
 interface MediaLinkProps {
@@ -12,7 +11,7 @@ const CustomLink = ({ linkData }: MediaLinkProps) => {
         target="_blank"
         className="bg-grey-1 p-4 rounded-2xl flex flex-col items-center justify-center m-2 w-full hover:shadow-xl hover:bg-gray-500"
       >
-        <Box>{linkData.title}</Box>
+        <div>{linkData.title}</div>
       </Link>
     </>
   );
