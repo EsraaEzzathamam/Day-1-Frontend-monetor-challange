@@ -1,38 +1,29 @@
 ## Frontend Mentor - Social links profile
+![Screenshot 2025-04-07 at 2 01 29 PM](https://github.com/user-attachments/assets/cd19ad7b-c1fa-4aa4-99db-9827a9492c8c)
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## Welcome! 👋
+This is a Front-End Application built using Next.js, React,and Tailwind CSS. The app serves as a personal portfolio website to showcase my skills, projects, and contact information. It features an interactive and visually appealing layout with smooth animations and links to my social media profiles.
 
-First, run the development server:
+## ⚙️ Features
+Responsive Design: The website adjusts to various screen sizes for an optimal viewing experience on both mobile and desktop.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Profile Section: Displays a profile picture, my name, and a brief description of who I am.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Social Media Links: Includes buttons linking to my GitHub, LinkedIn, Instagram, email, and phone.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Tailwind CSS: The styling is done with Tailwind CSS for a modern, utility-first approach to design.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 💻 Tech Stack
+Next.js: A React framework for building optimized, scalable web applications.
 
-## Learn More
+React: The front-end JavaScript library used for building interactive UIs.
 
-To learn more about Next.js, take a look at the following resources:
+Tailwind CSS: A utility-first CSS framework for fast UI development.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Next Image: Optimized image handling using Next.js' built-in <Image> component.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Vercel: Deployed on Vercel for automatic builds and easy deployment.(https://day-1-frontend-monetor-challange.vercel.app/)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
